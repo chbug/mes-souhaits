@@ -1,0 +1,58 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: arial, Helvetica, sans-serif;
+  font-size: 90%;
+  text-align: left;
+  paddin-bottom: 2em;
+}
+
+img {
+  border-width: 0px
+}
+
+ul, ol {
+  padding-left: 1em;
+  margin: 1ex;
+}
+
+li {
+  margin-bottom: 1ex;
+}
+
+h1, h2 {
+  margin-top:    1ex;
+  margin-bottom: 0.5ex;
+}
+
+p {
+  margin-top: 1ex;
+  margin-bottom: 0.5ex;
+}
+
+input, textarea {
+  font-family: arial, sans;
+  font-size: small;
+}
+
+.inbox {
+}
+
+.item {
+  margin-bottom: 1em;
+}
+
+.inputfield {
+  width: 30em;
+}
+
+.footer {
+  text-align: center;
+  font-size: x-small;
+  padding-top: 5em;
+  padding-bottom: 1em;
+}
+

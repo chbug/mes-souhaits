@@ -1,0 +1,21 @@
+<div xmlns:nevow="http://nevow.com/ns/nevow/0.1">
+<h1>Partagez vos souhaits de cadeaux facilement&#xa0;!</h1>
+
+Malheureusement, <em>Mes souhaits</em> fermera ses portes le <b>1er juin
+2017</b>.  D'ici là vous pouvez continuer à visiter les listes existantes, mais
+vous ne pouvez plus en créer. Et bien sûr vous êtes invités à déplacer vos listes
+vers des solutions alternatives.
+
+<p>J'espère qu'il vous aura été aussi utile qu'à moi. Merci de vous être arrêté
+ici un moment !</p>
+
+<h2>Où sont mes listes, mes réservations&#xa0;?</h2>
+
+Vous avez déjà utilisé <em>Mes souhaits</em>&#xa0;? Pour retrouver vos
+listes et vos réservations, entrez votre adresse email ci-dessous et
+laissez-vous guider.
+
+<div class="editable" nevow:render="rounded_box">
+  <div nevow:render="login" />
+</div>
+</div>

@@ -1,0 +1,15 @@
+<div xmlns:nevow="http://nevow.com/ns/nevow/0.1">
+
+<h1>Vos réservations</h1>
+
+<div nevow:data="listResa">
+  <p nevow:render="infoResa" />
+
+  <div nevow:render="sequence">
+    <div nevow:pattern="item">
+      <div nevow:render="fullList" />
+      <div nevow:render="possibleActions" />
+    </div>
+  </div>
+</div>
+</div>

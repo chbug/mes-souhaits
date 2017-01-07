@@ -1,0 +1,18 @@
+<div xmlns:nevow="http://nevow.com/ns/nevow/0.1">
+
+<h1>Vous déconnecter</h1>
+
+  Si vous êtes en train d'utiliser une machine publique (dans un
+  cybercafé par exemple), cliquez le bouton ci-dessous pour vous
+  déconnecter.
+
+  En général il n'est <b>pas nécessaire</b> de vous déconnecter si vous
+  utilisez votre machine personnelle.
+
+  <div class="editable bl"><div class="br"><div class="tl"><div class="tr">
+    <form class="edcontent" name="logout" action="/logout" method="POST">
+      <input type="submit" value="Oui, je veux vraiment me déconnecter" />
+    </form>
+  </div></div></div></div>
+
+</div>

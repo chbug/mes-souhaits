@@ -1,0 +1,25 @@
+<div xmlns:nevow="http://nevow.com/ns/nevow/0.1">
+  <h1>Détruire la liste «&#xa0;<em nevow:render="list_title"/>&#xa0;»
+  </h1>
+
+  <div class="editable" nevow:render="rounded_box">
+    <form action="destroy/confirm" method="POST" name="confirm">
+      
+      <table><tr><td>
+	<img src="/images/logo-danger.png" alt="Attention"
+	     width="35" height="41" style="margin-right: 1ex"/>
+      </td>
+      <td valign="center">
+	Vous êtes sur le point de détruire <b>définitivement</b> la liste
+	«&#xa0;<em nevow:render="list_title"/>&#xa0;». Cette opération est
+	<b>irréversible</b>.
+      </td></tr></table>
+  
+      <p nevow:render="display_stats" />
+
+      <input type="submit" name="confirm" 
+	     value="Oui, je veux vraiment détruire cette liste" />
+      <input type="submit" name="cancel"  value="Annuler la destruction" />
+    </form>
+  </div>
+</div>

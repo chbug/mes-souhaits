@@ -1,0 +1,10 @@
+<div xmlns:nevow="http://nevow.com/ns/nevow/0.1">
+<h1>Confirmer un cadeau</h1>
+<div class="editable bl"><div class="br"><div class="tl"><div class="tr">
+  <form action="donated/confirm" method="POST" name="confirm" class="edcontent">
+    <p> Chouette, vous avez déjà donné «&#xa0;<em nevow:render="itemName"/>&#xa0;» à
+    <span nevow:render="owner"/>&#xa0;?</p>
+    <input type="submit" name="confirm"  value="Oui, le cadeau a été donné" />
+  </form>
+</div></div></div></div>  
+</div>

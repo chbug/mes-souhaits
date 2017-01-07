@@ -1,0 +1,140 @@
+h1, h2 {
+  color: #5c3566;
+}
+
+.listtitle { background-color: #5c3566; }
+
+#help {
+    margin-left:2em;
+    font-size: x-large
+}
+
+#help em {
+    color: #5c3566;
+}
+
+#help .item {
+    color: #5c3566;
+    font-size: xx-large;
+    font-weight: bold
+}
+
+.title { background-color: rgb(207,108,0); }
+
+a {
+  color: #204a87;
+}
+
+a:link {
+}
+
+a:visited {
+  color: #3465a4;
+}
+
+#activate { 
+            padding-left: 5px;
+            padding-right: 5px;
+            background-color:red; 
+            color: white; 
+            margin-right:3em; 
+            font-weight: bold;
+}
+
+#activate a { color: white; }
+
+.userinfo {
+            text-align: right;
+}
+
+.userinfo, .userinfo form input { 
+                 font-size: x-small;
+                 }
+
+.listaction, .listaction a { font-size: small; }
+.listaction { padding-top: 1.5ex; }
+
+.content {
+  margin-right: 14em;
+  margin-left:  2em;
+  margin-top: 2em;
+}
+
+.userbox {
+  padding: 1ex;
+}
+
+.message {
+  font-style: italic;
+  font-size: small;
+  float: top;
+  text-align: center;
+  color: #a40000;
+}
+
+.warning {
+  color: red;
+  font-weight: bold;
+  padding-bottom: 1ex;
+}
+
+.listbox {
+  float: right;
+  width: 13em;
+  margin-right: 1ex;           
+  margin-top: 2em;           
+}
+
+.listitem { padding: .6ex 0ex .6ex 0ex; }
+.listitem a { color: white }
+
+.inbox {
+  background-color: #f57900;
+  color:white;
+}
+
+.editable {
+    background-color: #fce94f;
+    margin: 1em;
+}
+
+.edcontent, .boxcontent {
+    padding-left: 1ex;
+    padding-right: 1ex;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.itemdesc { margin-left: 1ex; padding-left: 1ex; border-left: 1px solid #5c3566 }
+
+.item-op {
+           padding-top: .5ex;
+}
+
+/* rounded corners */
+
+.bl, .br, .tl, .tr {
+     height: 1%  /* holly hack, http://www.satzansatz.de/cssd/onhavinglayout.html */
+}
+
+.bl {
+      background-image: url(/images/bl.gif);
+      background-repeat: no-repeat;
+      background-position: 0% 100%;
+}
+.br {
+      background-image: url(/images/br.gif);
+      background-repeat: no-repeat;
+      background-position: 100% 100%;
+}
+.tl {
+      background-image: url(/images/tl.gif);
+      background-repeat: no-repeat;
+      background-position: 0% 0%;
+}
+.tr {
+      background-image: url(/images/tr.gif);
+      background-repeat: no-repeat;
+      background-position: 100% 0%;
+      padding: 0ex 1ex 0ex 1ex;
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:nevow="http://nevow.com/ns/nevow/0.1">
+  <head>
+    <link rel="stylesheet" type="text/css" href="/css/default.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/screen.css" />
+    <link rel="stylesheet" type="text/css" media="print"  href="/css/printable.css" />
+    <link rel="stylesheet" type="text/css" media="screen" nevow:render="theme_css" />
+
+    <div nevow:render="raw_header"/>
+    <title nevow:render="title"></title>
+  </head>
+  <body>
+  <div class="userbox" nevow:render="userbox" />
+  <div class="message" nevow:render="message" />
+  <div class="listbox">
+    <div class="inbox bl"><div class="br"><div class="tl"><div class="tr">
+      <div style="padding: 1em 1ex 1em 1ex" nevow:render="listbox" />
+    </div></div></div></div>
+  </div>
+  <div class="content" >
+    <div nevow:render="content" />
+  </div>
+
+  <div class="footer">
+    &copy;&#xa0;2005&ndash;2008 &mdash; <a href="/about">Mes souhaits</a>
+  </div>
+  </body>
+</html>

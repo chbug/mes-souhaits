@@ -1,0 +1,44 @@
+<div xmlns:nevow="http://nevow.com/ns/nevow/0.1">
+  <h1>Modifiez votre liste</h1>
+
+  <div class="editable" nevow:render="rounded_box">
+  <form method="POST" name="desc" action="edit/change">
+    
+    <input class="inputfield" type="text" name="listTitle" nevow:render="listTitle" />
+    <br/><textarea rows="5" class="inputfield" name="listDesc" nevow:render="listDesc" />
+      
+    <p>
+      <input type="checkbox" name="showRes" nevow:render="showRes"
+	     />&#xa0;voir quand un cadeau est réservé
+    </p>
+
+    <h2>Style</h2>
+    <p nevow:render="listThemes" />
+
+    <h2>Déléguer la gestion</h2>
+
+    <p>Vous pouvez permettre à d'autres personnes de modifier le
+    contenu de cette liste. Indiquez simplement leurs adresses email
+    ci-dessous (<i>ces personnes doivent déjà utiliser Mes
+    Souhaits</i>).
+    <br/>
+    <textarea rows="5" class="inputfield" name="coEditors" nevow:render="coEditors" />
+    </p>
+
+
+    <h2>Adresse publique</h2>
+
+    <p>Choisissez l'adresse de votre liste&#xa0;:
+    <tt style="padding:1em">http://mes-souhaits.net/<input type="text" name="listUrl" nevow:render="listUrl"/></tt>
+    </p>
+
+    <br/>
+    <hr style="margin-top:1em; margin-bottom: 1em;" />
+
+    <p>
+      <input name="modify" type="submit" value="Modifier la liste"/>
+      <input type="submit" name="cancel" value="Annuler les changements"/>
+    </p>
+  </form>
+  </div>
+</div>

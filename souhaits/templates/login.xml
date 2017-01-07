@@ -1,0 +1,13 @@
+<div xmlns:nevow="http://nevow.com/ns/nevow/0.1">
+
+  <h1>Vous connecter</h1>
+
+  <p>Toutes vos listes et vos réservations sont conservées sous
+  l'adresse e-mail que vous entrez ici. <em>Nous ne diffuserons cette
+  adresse à aucun tiers, y compris ceux qui visitent vos
+  listes.</em></p>
+
+  <div class="editable bl"><div class="br"><div class="tl"><div class="tr">
+    <div class="edcontent" id="auth" nevow:data="login_info" nevow:render="login" />
+  </div></div></div></div>
+</div>

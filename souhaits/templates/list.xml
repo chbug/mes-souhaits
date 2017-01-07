@@ -1,0 +1,14 @@
+<div class="list" xmlns:nevow="http://nevow.com/ns/nevow/0.1">
+  <div nevow:render="listname" />
+  <p nevow:render="listDesc" />
+
+  <div nevow:render="maybeAdd" />
+
+  <div nevow:data="listContent" nevow:render="sequence">
+    <div class="item" nevow:pattern="item">
+      <div nevow:render="fullList" />
+      <div nevow:render="possibleActions" />
+    </div>
+  </div>
+
+</div>

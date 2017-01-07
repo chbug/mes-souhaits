@@ -1,0 +1,13 @@
+<div xmlns:nevow="http://nevow.com/ns/nevow/0.1">
+  <h1>Ignorer <em nevow:render="list_title"/></h1>
+
+  <p>Si vous n'êtes plus intéressé par la liste <em
+  nevow:render="list_title"/>, vous pouvez cliquer sur le bouton
+  ci-dessous, et elle n'apparaitra plus dans votre liste de listes.</p>
+
+  <div class="editable bl"><div class="br"><div class="tl"><div class="tr">
+    <form action="unsubscribe/confirm" method="POST" name="confirm" class="edcontent">
+      <input type="submit" value="Ignorer cette liste" />
+    </form>
+  </div></div></div></div>
+</div>

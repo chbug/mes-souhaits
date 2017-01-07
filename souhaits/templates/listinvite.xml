@@ -1,0 +1,41 @@
+<div xmlns:nevow="http://nevow.com/ns/nevow/0.1">
+  <h1>Envoyer des invitations</h1>
+
+  <p>Vous pouvez envoyer une invitation à vos amis pour qu'ils
+  puissent consulter vos listes et réserver vos souhaits.</p>
+
+  <div class="editable" nevow:render="rounded_box">
+  <form name="invite" action="invite" method="POST" nevow:data="form">
+    <div nevow:render="info" />
+
+    <p>
+      <b>Votre vrai nom</b> (<em>il apparaîtra dans l'invitation</em>)&#xa0;: 
+      <br/>
+      <input class="inputfield" type="text" name="sender" nevow:render="sender" />
+    </p>
+
+    <p>
+      <b>Adresse email de la personne à inviter&#xa0;:</b>
+      <br/>
+      <input class="inputfield" type="text" name="email" nevow:render="email" />
+    </p>
+
+    <p>
+      <b>Contenu du message&#xa0;:</b> (<em>un lien vers le site sera ajouté
+      automatiquement</em>)
+      <br/>
+      <textarea name="body" class="inputfield" rows="10" nevow:render="body" />
+    </p>
+
+    <p>
+      <b>Choisissez les listes concernées par votre invitation&#xa0;:</b>
+      <div nevow:render="myLists"/>
+    </p>
+
+    <p>
+      <input type="submit" name="send" value="Envoyer ce message"/>
+      <input type="submit" name="cancel" value="Annuler"/>
+    </p>
+  </form>
+  </div>
+</div>

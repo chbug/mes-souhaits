@@ -1,0 +1,6 @@
+<div class="list" xmlns:nevow="http://nevow.com/ns/nevow/0.1">
+  <div nevow:data="item">
+    <div nevow:render="fullList" />
+    <div nevow:render="maybeEdit" />
+  </div>
+</div>

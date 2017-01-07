@@ -1,0 +1,12 @@
+<form xmlns:nevow="http://nevow.com/ns/nevow/0.1"
+      name="auth" action="/login" method="POST" nevow:render="login">
+  <div nevow:render="login_warnings" class="warning" />
+  <input type="hidden" name="referer" nevow:render="login_referer" />
+  Votre adresse e-mail&#xa0;:&#xa0;<input type="text" name="email"
+  nevow:render="login_email" />
+  <input type="checkbox" name="reconnect" value="true"
+	 style="margin-left: 1ex" nevow:render="login_reconnect">
+    Vous avez déjà un compte&#xa0;?
+  </input>
+  <input type="submit" style="margin-left: 1ex" value="Vous connecter"/>
+</form>

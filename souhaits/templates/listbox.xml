@@ -1,0 +1,15 @@
+<div xmlns:nevow="http://nevow.com/ns/nevow/0.1">
+<div nevow:data="my_lists">
+  <div nevow:render="your_account" />
+  <div nevow:render="sequence">
+    <div class="listitem" nevow:pattern="item" nevow:render="listitem">
+      <nevow:slot name="list" />
+    </div>
+  </div>
+</div>
+<div nevow:data="friend_lists" nevow:render="sequence">
+  <div class="listitem" nevow:pattern="item" nevow:render="listitem">
+    <nevow:slot name="list" />
+  </div>
+</div>
+</div>

@@ -1,0 +1,16 @@
+.content {
+}
+
+.userbox {
+  padding: 1ex;
+  height: 45px;
+}
+
+.userinfo, .item-op, .message, .listbox, .actionbox, .editable {
+  display: none;
+}
+
+a, a:visited {
+  color: black;
+}
+

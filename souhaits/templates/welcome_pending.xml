@@ -1,0 +1,25 @@
+<div xmlns:nevow="http://nevow.com/ns/nevow/0.1">
+<h1>Dernière étape...</h1>
+
+<p>Vous devez encore <em>cliquer sur le lien</em> que vous avez reçu par email.</p>
+
+<p nevow:render="newUser">
+<table><tr><td>
+  <img src="/images/logo-danger.png" alt="Attention"
+       width="35" height="41" style="margin-right: 1ex"/>
+</td>
+<td valign="center">
+  Si vous ne cliquez pas sur ce lien dans les 7 prochains jours pour
+  confirmer votre adresse email, <em>vos réservations seront
+  perdues.</em> </td></tr></table>
+</p>
+
+<h2>Vous n'avez pas reçu le mail ou vous l'avez égaré&#xa0;?</h2>
+
+<div class="editable bl"><div class="br"><div class="tl"><div class="tr">
+  <form class="edcontent" action="/login/auth" name="login" method="POST">
+    Votre adresse e-mail&#xa0;: <input type="text" name="email" nevow:render="emailValue" />
+    <input type="submit" value="Renvoyer le mail" />
+  </form>
+</div></div></div></div>
+</div>
